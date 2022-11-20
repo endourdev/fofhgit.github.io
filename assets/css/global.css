@@ -11,10 +11,23 @@
     background-color: #222226;
 }
 
+p {
+    color: white;
+}
+
+h4#p {
+    padding: 10px;
+}
+
 /* Typewriter */
 
+h1#dev {
+    color: white;
+    text-align: center;
+}
+
 h2#dev {
-    height: 500px;
+    /* height: 500px; */
     text-align: center;
     border-right: 0.15em solid #222226;
     letter-spacing: 0.05em;
