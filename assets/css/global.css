@@ -11,15 +11,15 @@
     background-color: #222226;
 }
 
-p {
-    color: white;
-}
-
-h4#p {
+h3#p {
     padding: 10px;
+    padding-top: 184px;
+    text-align: center;
 }
 
-/* Typewriter */
+h3#p a {
+    text-decoration: none;
+}
 
 h1#dev {
     color: white;
@@ -29,22 +29,9 @@ h1#dev {
 h2#dev {
     /* height: 500px; */
     text-align: center;
-    border-right: 0.15em solid #222226;
-    letter-spacing: 0.05em;
-    animation: blink 0.75s infinite;
 }
 
-@keyframes blink {
-    from,
-    to {
-        border-color: transparent;
-    }
-    50% {
-        border-color: #222226;
-    }
-}
-
-/* Typewriter/span */
+/* Span Color */
 span.js {
     color: #f7df1e;
 }
@@ -61,11 +48,11 @@ span.css {
 
 nav {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 2%;
-    padding-right: 5%;
+    padding-right: 1%;
 }
 
 nav img {
@@ -79,7 +66,7 @@ nav ul li {
 
 nav ul li a {
     color: #57F287;
-    margin-top: 20px;
+    margin-top: 10px;
     text-decoration: none;
 }
 
