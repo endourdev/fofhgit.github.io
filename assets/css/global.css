@@ -180,3 +180,11 @@ button.btn h3 a.gr {
 button.btn h3 a.gr:hover {
     background: transparent;
 }
+
+div#projets a.saiting button {
+    margin-right: 35%;
+}
+
+div#projets a.slimee button {
+    margin-right: 35%;
+}
